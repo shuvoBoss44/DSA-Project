@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules/
+
+# Local configuration
+.env
+
+# Compiled C++ binaries
+main
+search_engine
+
+# OS generated files
+.DS_Store
