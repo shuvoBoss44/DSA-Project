@@ -1,0 +1,15 @@
+{
+  "name": "search-engine-gui",
+  "version": "1.0.0",
+  "description": "Premium Liquid Glass GUI for C++ Search Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.14"
+  }
+}

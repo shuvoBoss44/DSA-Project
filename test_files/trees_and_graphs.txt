@@ -1,0 +1,15 @@
+Trees are hierarchical data structures with a root node and child nodes.
+A binary tree is a tree where each node has at most two children.
+Binary search tree is a binary tree where left child is smaller and right child is larger.
+Tree traversal methods include inorder, preorder, and postorder.
+Inorder traversal visits left subtree, root, then right subtree.
+Preorder traversal visits root, left subtree, then right subtree.
+Postorder traversal visits left subtree, right subtree, then root.
+AVL trees are self balancing binary search trees.
+In an AVL tree, the heights of two child subtrees differ by at most one.
+Graphs are data structures consisting of vertices and edges.
+A graph can be directed or undirected.
+Graph traversal algorithms include Breadth First Search and Depth First Search.
+BFS uses a queue data structure while DFS uses a stack data structure.
+Shortest path algorithms like Dijkstra algorithm work on weighted graphs.
+Trees and graphs are essential for solving many real world problems.

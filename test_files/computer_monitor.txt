@@ -1,0 +1,5 @@
+1: A computer monitor is an electronic output device that displays information in pictorial form.
+2: It typically comprises a visual display, circuitry, casing, and power supply.
+3: Modern monitors primarily use LCD or OLED panels to produce images.
+4: Key specifications include resolution, refresh rate, and response time.
+5: High refresh rate monitors are particularly popular among gamers for smoother visuals.

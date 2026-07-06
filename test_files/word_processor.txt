@@ -1,0 +1,5 @@
+1: A word processor is a device or computer program that provides for input, editing, formatting, and output of text.
+2: It is one of the most widely used types of software applications.
+3: Key features include spell checking, grammar checking, and different font styles.
+4: Microsoft Word and Google Docs are two of the most popular word processors today.
+5: Word processors have largely replaced typewriters in modern offices.

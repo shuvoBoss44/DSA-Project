@@ -1,0 +1,5 @@
+1: A media player is a type of application software for playing multimedia computer files like audio and video.
+2: Most media players support an array of media formats, including MP3, MP4, and MKV.
+3: Advanced media players may support subtitle rendering, playlist management, and streaming.
+4: VLC media player is a highly popular, open-source player known for its broad format support.
+5: Media players use codecs to decode the audio and video streams within media files.

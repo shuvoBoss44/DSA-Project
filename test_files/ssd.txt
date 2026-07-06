@@ -1,0 +1,5 @@
+1: A Solid-State Drive, or SSD, is a solid-state storage device that uses integrated circuit assemblies.
+2: It functions as secondary storage in the hierarchy of computer storage.
+3: SSDs use flash memory and have no moving mechanical parts, unlike traditional hard disk drives.
+4: Because of this, they are much faster, more durable, and quieter than HDDs.
+5: NVMe SSDs, which connect directly to the motherboard, offer even higher speeds.

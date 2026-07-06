@@ -1,0 +1,5 @@
+1: A game engine is a software framework designed for the development of video games.
+2: It provides core functionalities like rendering graphics, physics simulation, and audio.
+3: Game engines make it easier to build games for multiple platforms, such as PC, consoles, and mobile.
+4: Unity and Unreal Engine are two of the most popular and versatile game engines currently in use.
+5: Developers can write custom scripts to control game logic and character behavior within the engine.

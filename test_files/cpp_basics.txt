@@ -1,0 +1,13 @@
+Programming in C++ is widely used in system programming and competitive programming.
+C++ supports object oriented programming with classes and objects.
+Variables in C++ can be of different data types such as int, float, char, and string.
+Control structures include if else statements, for loops, while loops, and switch cases.
+Functions help organize code into reusable blocks.
+Arrays in C++ are used to store multiple elements of the same data type.
+Pointers store memory addresses and are a powerful feature of C++.
+Dynamic memory allocation in C++ uses new and delete operators.
+The Standard Template Library provides useful data structures like vector, map, and set.
+Templates in C++ allow writing generic functions and classes.
+Exception handling uses try, catch, and throw keywords.
+File handling in C++ uses ifstream and ofstream for reading and writing files.
+C++ is an efficient language suitable for building search engines and other performance critical applications.

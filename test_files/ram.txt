@@ -1,0 +1,5 @@
+1: Random Access Memory, or RAM, is a form of computer memory that can be read and changed in any order.
+2: It is typically used to store working data and machine code currently in use.
+3: RAM allows data items to be read or written in almost the same amount of time irrespective of their location.
+4: Upgrading a computer's RAM can significantly improve multitasking performance.
+5: When a computer is powered off, the data stored in RAM is lost.

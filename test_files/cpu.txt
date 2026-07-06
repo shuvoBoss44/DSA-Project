@@ -1,0 +1,5 @@
+1: A Central Processing Unit, or CPU, is the primary component of a computer.
+2: It acts as the brain of the computer, performing most of the processing inside the system.
+3: The CPU executes instructions of a computer program by performing basic arithmetic and logic.
+4: Clock speed and core count are important factors in CPU performance.
+5: Intel and AMD are the two major manufacturers of CPUs for personal computers.

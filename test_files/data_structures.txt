@@ -1,0 +1,12 @@
+Data structures are fundamental building blocks in computer science.
+A data structure is a way of organizing and storing data so that it can be accessed efficiently.
+Common data structures include arrays, linked lists, stacks, queues, trees, and graphs.
+The choice of data structure depends on the type of operations that need to be performed.
+Arrays provide constant time access to elements but have fixed size.
+Linked lists allow dynamic memory allocation and easy insertion and deletion.
+A stack follows the Last In First Out principle, also known as LIFO.
+A queue follows the First In First Out principle, also known as FIFO.
+Binary search trees allow efficient searching, insertion, and deletion operations.
+Hash tables provide average constant time complexity for search operations.
+Data structures form the backbone of efficient algorithm design.
+Understanding data structures is essential for every computer science student.

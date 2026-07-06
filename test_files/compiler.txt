@@ -1,0 +1,5 @@
+1: A compiler is a computer program that translates computer code written in one programming language into another language.
+2: It primarily translates high-level source code into low-level machine code or assembly language.
+3: The compilation process typically involves lexical analysis, parsing, optimization, and code generation.
+4: Compiled languages, like C and C++, tend to execute faster than interpreted languages.
+5: GCC and Clang are widely used open-source compilers.

@@ -1,0 +1,5 @@
+1: A chat application is software that enables real-time text transmission over the Internet.
+2: It allows two or more people to communicate instantly, often incorporating voice and video calling.
+3: Modern chat apps frequently support file sharing, emojis, and group chats.
+4: End-to-end encryption is a critical feature for ensuring privacy in messaging applications.
+5: Popular chat applications include WhatsApp, Telegram, Discord, and Slack.

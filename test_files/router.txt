@@ -1,0 +1,5 @@
+1: A router is a networking device that forwards data packets between computer networks.
+2: Routers perform the traffic directing functions on the Internet.
+3: A home router connects the local devices to the Internet provided by an ISP.
+4: Many routers include a built-in wireless access point for Wi-Fi connectivity.
+5: They use routing tables to determine the best path for forwarding the packets.

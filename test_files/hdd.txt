@@ -1,0 +1,5 @@
+1: A Hard Disk Drive, or HDD, is an electro-mechanical data storage device.
+2: It stores and retrieves digital data using magnetic storage on rigid rapidly rotating platters.
+3: HDDs are a type of non-volatile memory, retaining stored data even when powered off.
+4: While slower than solid-state drives, HDDs offer larger storage capacities at a lower cost.
+5: They are commonly used for mass data storage and backups.

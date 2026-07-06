@@ -1,0 +1,5 @@
+1: Image editing software is used to manipulate or enhance digital images.
+2: Raster graphics editors allow users to modify individual pixels, making them ideal for photo retouching.
+3: Vector graphics editors use mathematical formulas to draw shapes, perfect for logos and illustrations.
+4: Adobe Photoshop is the most widely known raster graphics editor.
+5: Features often include layers, masks, blending modes, and various selection tools.

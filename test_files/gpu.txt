@@ -1,0 +1,5 @@
+1: A Graphics Processing Unit, or GPU, accelerates the rendering of images and video.
+2: It is highly specialized for parallel processing, unlike a general-purpose CPU.
+3: GPUs are essential for gaming, 3D rendering, and machine learning applications.
+4: They can be integrated into the motherboard or come as dedicated graphics cards.
+5: NVIDIA and AMD are the leading designers of dedicated GPUs.

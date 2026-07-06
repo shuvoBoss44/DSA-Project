@@ -1,0 +1,5 @@
+1: A database is an organized collection of data, generally stored and accessed electronically from a computer system.
+2: Database management systems (DBMS) are software that interact with end users, applications, and the database itself.
+3: Relational databases use tables to store data, with SQL being the standard language for querying.
+4: NoSQL databases offer flexible schemas and scale well with unstructured data.
+5: Common database software includes MySQL, PostgreSQL, Oracle, and MongoDB.

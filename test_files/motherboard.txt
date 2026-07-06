@@ -1,0 +1,5 @@
+1: The motherboard is the main printed circuit board in general-purpose computers.
+2: It holds and allows communication between many of the crucial electronic components of a system.
+3: These components include the central processing unit and memory.
+4: It also provides connectors for other peripherals like hard drives and graphics cards.
+5: Motherboards come in various form factors, such as ATX, Micro-ATX, and Mini-ITX.

@@ -1,0 +1,5 @@
+1: A computer mouse is a hand-held pointing device that detects two-dimensional motion relative to a surface.
+2: This motion is typically translated into the motion of a pointer on a display, allowing for fine control.
+3: A mouse usually features buttons for clicking, and a scroll wheel for navigating documents.
+4: Optical and laser mice use light to detect movement, replacing older mechanical ball mice.
+5: Gaming mice often feature adjustable weights and additional programmable buttons.

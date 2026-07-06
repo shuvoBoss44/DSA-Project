@@ -1,0 +1,14 @@
+Search engines are software systems designed to search for information.
+A search engine indexes documents and retrieves relevant results based on user queries.
+The core of a search engine is the inverted index data structure.
+An inverted index maps each word to the list of documents containing that word.
+When a user enters a search query, the engine looks up the inverted index.
+Ranking algorithms determine which results are most relevant to the query.
+Term Frequency measures how often a search term appears in a document.
+Inverse Document Frequency measures how important a term is across all documents.
+The TF-IDF score combines term frequency and inverse document frequency.
+Documents with higher TF-IDF scores are considered more relevant to the search query.
+A search engine must handle large volumes of text data efficiently.
+Modern search engines use complex algorithms and data structures for fast retrieval.
+Building a search engine helps understand indexing, ranking, and data structure concepts.
+The search engine we are building demonstrates these fundamental concepts.

@@ -1,0 +1,5 @@
+1: A printer is a peripheral device which makes a persistent representation of graphics or text, usually on paper.
+2: Inkjet printers work by propelling variably-sized droplets of liquid ink onto paper.
+3: Laser printers employ a xerographic printing process that produces high-quality text and graphics.
+4: 3D printers create three-dimensional objects by depositing materials layer by layer.
+5: Printers can be connected via USB, Wi-Fi, or Ethernet networks.

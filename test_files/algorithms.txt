@@ -1,0 +1,14 @@
+Algorithms are step by step procedures for solving computational problems.
+An algorithm must be correct, efficient, and well defined.
+Sorting algorithms arrange elements in a specific order.
+Common sorting algorithms include bubble sort, selection sort, insertion sort, merge sort, and quick sort.
+Bubble sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+Selection sort finds the minimum element and places it at the beginning.
+Merge sort uses the divide and conquer approach to sort elements efficiently.
+Quick sort also uses divide and conquer but selects a pivot element.
+The time complexity of bubble sort is O(n squared) in the worst case.
+Merge sort has a time complexity of O(n log n) which makes it more efficient.
+Searching algorithms find specific elements in a data structure.
+Linear search checks each element one by one until the target is found.
+Binary search works on sorted arrays and has O(log n) time complexity.
+Algorithm analysis helps us understand the efficiency of our solutions.

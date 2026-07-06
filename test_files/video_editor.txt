@@ -1,0 +1,5 @@
+1: Video editing software allows users to manipulate and arrange video clips on a computer.
+2: It is used for post-production tasks, including color correction, audio mixing, and adding effects.
+3: Non-linear editing systems allow users to edit footage without modifying the original files.
+4: Professional video editors include Adobe Premiere Pro, Final Cut Pro, and DaVinci Resolve.
+5: Basic editors like iMovie are popular among beginners and casual users.

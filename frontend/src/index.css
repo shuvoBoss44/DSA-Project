@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-zinc-950 bg-zinc-50 dark:text-zinc-50 dark:bg-[#07070a] transition-colors duration-300 antialiased overflow-x-hidden;
+  }
+}
+
+/* Custom scrollbars for a premium look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 dark:bg-zinc-800 rounded-full hover:bg-zinc-400 dark:hover:bg-zinc-700 transition-colors;
+}
+
+/* Liquid Glass Cards */
+.liquid-glass {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.04), inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+}
+
+.dark .liquid-glass {
+  background: rgba(12, 12, 18, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Liquid Glass Buttons */
+.btn-glass-primary {
+  @apply bg-indigo-600/90 hover:bg-indigo-600 text-white font-medium rounded-lg px-4 py-2 transition-all duration-300 shadow-lg shadow-indigo-600/20 hover:shadow-indigo-600/40 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer;
+}
+
+.btn-glass-secondary {
+  @apply bg-white/20 dark:bg-zinc-800/30 hover:bg-white/30 dark:hover:bg-zinc-800/50 text-zinc-800 dark:text-zinc-200 border border-zinc-200/50 dark:border-zinc-700/30 font-medium rounded-lg px-4 py-2 transition-all duration-300 backdrop-blur-sm cursor-pointer;
+}
+
+/* Glow Orbs in background */
+.glow-orb {
+  @apply absolute rounded-full pointer-events-none filter blur-[120px] opacity-40 dark:opacity-20 animate-pulse transition-all duration-1000;
+}
+
+/* Custom Highlight helper */
+.search-highlight {
+  @apply bg-yellow-200/80 dark:bg-indigo-500/40 text-black dark:text-white px-0.5 rounded font-medium border-b-2 border-yellow-400 dark:border-indigo-400;
+}

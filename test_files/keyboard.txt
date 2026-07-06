@@ -1,0 +1,5 @@
+1: A computer keyboard is an input device used to enter characters and functions into the computer system.
+2: It typically features a layout of keys representing letters, numbers, and symbols.
+3: Mechanical keyboards use individual switches for each key, offering tactile feedback.
+4: Membrane keyboards are more common and quieter, using a pressure pad.
+5: Ergonomic keyboards are designed to minimize muscle strain and reduce the risk of injury.

@@ -1,0 +1,5 @@
+1: A web browser is an application software for accessing the World Wide Web.
+2: It retrieves content from web servers and displays it on the user's screen.
+3: Common features include tabbed browsing, bookmarks, and a history of visited pages.
+4: Popular web browsers include Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge.
+5: Browsers use rendering engines to interpret HTML, CSS, and JavaScript.

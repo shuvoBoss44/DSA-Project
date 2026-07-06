@@ -1,0 +1,5 @@
+1: Antivirus software is a computer program used to prevent, detect, and remove malware.
+2: It protects systems against computer viruses, worms, trojans, ransomware, and spyware.
+3: Modern antivirus software often includes real-time protection and web filtering.
+4: Regular updates of virus definitions are crucial for detecting new threats.
+5: Relying solely on antivirus is not enough; safe browsing habits are also essential.

@@ -1,0 +1,5 @@
+1: An operating system (OS) is system software that manages computer hardware and software resources.
+2: It provides common services for computer programs, acting as an intermediary between users and hardware.
+3: Popular desktop operating systems include Microsoft Windows, macOS, and Linux.
+4: Mobile devices commonly run on operating systems like Android and iOS.
+5: The kernel is the core component of an OS, controlling all basic operations.

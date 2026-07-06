@@ -1,0 +1,5 @@
+1: A spreadsheet is a computer application for organization, analysis, and storage of data in tabular form.
+2: Data is entered into cells arranged in rows and columns.
+3: Spreadsheets allow users to perform complex calculations using built-in formulas and functions.
+4: They are widely used for financial modeling, budgeting, and statistical analysis.
+5: Microsoft Excel is the industry standard spreadsheet software.
