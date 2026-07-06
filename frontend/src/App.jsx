@@ -873,7 +873,7 @@ export default function App() {
           </header>
 
           {/* Quick tab controls */}
-          <div className="flex items-center space-x-2 mb-6 bg-zinc-200/40 dark:bg-zinc-900/40 p-1.5 rounded-xl self-start">
+          <div className="flex items-center space-x-1.5 sm:space-x-2 mb-6 bg-zinc-200/40 dark:bg-zinc-900/40 p-1.5 rounded-xl self-start max-w-full overflow-x-auto whitespace-nowrap">
             <button
               onClick={() => setActiveTab('results')}
               className={`flex items-center space-x-1.5 px-4 py-1.5 text-xs font-semibold rounded-lg transition-all cursor-pointer ${
@@ -1246,8 +1246,18 @@ export default function App() {
 
             {/* Right Slides Details Panel */}
             {selectedFileName && (
-              <aside className="w-full lg:w-[420px] transition-all duration-300 flex flex-col">
-                <div className="liquid-glass rounded-2xl p-5 sticky top-6 max-h-[85vh] flex flex-col border border-zinc-200/40 dark:border-white/5 shadow-2xl">
+              <div 
+                className="fixed inset-0 bg-zinc-950/60 backdrop-blur-sm z-50 flex justify-end pointer-events-auto lg:relative lg:bg-transparent lg:backdrop-blur-none lg:z-auto lg:p-0 lg:pointer-events-none transition-all duration-300"
+                onClick={() => {
+                  setSelectedFileName('');
+                  setSelectedFileContent(null);
+                }}
+              >
+                <aside 
+                  className="w-full max-w-lg h-full lg:h-auto bg-zinc-950 dark:bg-[#07070a] lg:bg-transparent p-0 flex flex-col lg:w-[420px] relative pointer-events-auto"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <div className="liquid-glass rounded-none lg:rounded-2xl p-5 sticky top-6 max-h-screen lg:max-h-[85vh] h-full lg:h-auto flex flex-col border-none lg:border border-zinc-200/40 dark:border-white/5 shadow-2xl">
                   {/* Sidebar Header */}
                   <div className="flex justify-between items-center mb-4 pb-2 border-b border-zinc-200/30 dark:border-zinc-800/30">
                     <div className="flex items-center space-x-2 min-w-0">
@@ -1362,7 +1372,8 @@ export default function App() {
                   </div>
                 </div>
               </aside>
-            )}
+            </div>
+          )}
 
           </div>
 
