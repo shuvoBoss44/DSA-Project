@@ -575,7 +575,7 @@ export default function App() {
     : [];
 
   return (
-    <div className="min-h-screen relative overflow-hidden font-sans bg-zinc-50 dark:bg-[#060609] text-zinc-900 dark:text-zinc-100 transition-colors duration-300">
+    <div className={`min-h-screen relative overflow-hidden font-sans text-zinc-900 dark:text-zinc-100 transition-all duration-500 ${searchPerformed ? 'bg-zinc-50 dark:bg-[#060609]' : 'animated-bg-image'}`}>
       
       {/* Liquid Ambient Blurs */}
       <div className="glow-orb w-[450px] h-[450px] bg-indigo-500/15 dark:bg-indigo-600/10 top-[-80px] left-[-80px] animate-float-1" />
@@ -592,7 +592,7 @@ export default function App() {
                 <Layers className="w-5 h-5" />
               </div>
               <span className="font-extrabold tracking-tight text-md bg-gradient-to-r from-zinc-900 via-indigo-900 to-zinc-900 dark:from-white dark:via-indigo-200 dark:to-white bg-clip-text text-transparent">
-                NEXUS
+                SIMPLE SEARCH ENGINE
               </span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
@@ -813,7 +813,7 @@ export default function App() {
               </div>
               <div>
                 <h1 className="font-extrabold tracking-tight text-lg bg-gradient-to-r from-zinc-900 via-indigo-900 to-zinc-900 dark:from-white dark:via-indigo-200 dark:to-white bg-clip-text text-transparent flex items-center">
-                  NEXUS
+                  SIMPLE SEARCH ENGINE
                   <ArrowLeft className="w-3.5 h-3.5 ml-1.5 opacity-0 group-hover:opacity-100 transition-opacity text-indigo-500" />
                 </h1>
                 <p className="text-[9px] text-zinc-400 dark:text-zinc-500 font-mono">
