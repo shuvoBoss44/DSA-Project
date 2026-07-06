@@ -586,7 +586,7 @@ export default function App() {
       {!searchPerformed ? (
         <div className="min-h-screen flex flex-col justify-between p-6 relative z-10">
           {/* Header Bar */}
-          <header className="flex justify-between items-center max-w-[1400px] w-full mx-auto">
+          <header className="flex flex-col sm:flex-row justify-between items-center gap-4 max-w-[1400px] w-full mx-auto">
             <div className="flex items-center space-x-2">
               <div className="p-2 bg-gradient-to-tr from-indigo-600 to-indigo-400 rounded-lg shadow-md text-white">
                 <Layers className="w-5 h-5" />
@@ -595,7 +595,7 @@ export default function App() {
                 NEXUS
               </span>
             </div>
-            <div className="flex items-center space-x-3">
+            <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
               <button 
                 onClick={() => {
                   setSearchPerformed(true);
@@ -641,16 +641,16 @@ export default function App() {
 
             {/* Input Bar Card */}
             <div className="w-full liquid-glass rounded-2xl p-4 shadow-xl border border-zinc-200/40 dark:border-white/5 relative z-20 mb-6">
-              <div className="flex items-center space-x-2 relative" ref={autocompleteRef}>
-                <div className="flex-1 relative">
-                  <Search className="absolute left-4 top-3.5 w-5 h-5 text-zinc-400" />
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 relative" ref={autocompleteRef}>
+                <div className="flex-1 relative flex items-center">
+                  <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-450 dark:text-zinc-500 pointer-events-none" />
                   <input
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
                     placeholder="Search terms, phrases or files (e.g. algorithms, CPU)..."
-                    className="w-full bg-white/60 dark:bg-black/25 border border-zinc-200/50 dark:border-zinc-800/40 rounded-xl py-3 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/40 focus:border-indigo-500/60 text-zinc-950 dark:text-zinc-100 shadow-inner"
+                    className="w-full bg-white/60 dark:bg-black/25 border border-zinc-200/50 dark:border-zinc-800/40 rounded-xl py-3 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/40 focus:border-indigo-500/60 text-zinc-950 dark:text-zinc-100 shadow-inner font-sans"
                   />
                   
                   {/* Suggestions Dropdown */}
@@ -676,7 +676,7 @@ export default function App() {
                 <button 
                   onClick={() => handleSearch()}
                   disabled={loading}
-                  className="btn-glass-primary flex items-center space-x-2 px-5 py-3 h-[46px]"
+                  className="btn-glass-primary flex items-center justify-center space-x-2 px-5 py-3 h-[46px] w-full sm:w-auto"
                 >
                   <Zap className="w-4 h-4" />
                   <span>Search</span>
@@ -684,8 +684,8 @@ export default function App() {
               </div>
 
               {/* Advanced controls */}
-              <div className="flex items-center justify-between mt-4 pt-3 border-t border-zinc-200/30 dark:border-zinc-800/30 text-xs">
-                <div className="flex items-center space-x-4">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mt-4 pt-3 border-t border-zinc-200/30 dark:border-zinc-800/30 text-xs">
+                <div className="flex flex-wrap items-center gap-3 sm:gap-4">
                   <label className="flex items-center space-x-2 text-zinc-500 dark:text-zinc-400 cursor-pointer">
                     <input 
                       type="checkbox"
@@ -695,7 +695,7 @@ export default function App() {
                     />
                     <span>Case Sensitive</span>
                   </label>
-                  <span className="text-zinc-300 dark:text-zinc-800">|</span>
+                  <span className="text-zinc-300 dark:text-zinc-800 hidden sm:inline">|</span>
                   <button 
                     onClick={() => setShowHistory(!showHistory)}
                     className="flex items-center space-x-1.5 text-zinc-500 dark:text-zinc-400 hover:text-indigo-500 transition-colors"
