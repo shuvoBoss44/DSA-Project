@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "g++ -std=c++17 -O3 main.cpp -o main && cd frontend && npm install && npm run build"
+    "build": "g++ -std=c++17 -O3 main.cpp -o main && cd frontend && npm install && npm run build",
+    "postinstall": "g++ -std=c++17 -O3 main.cpp -o main && cd frontend && npm install && npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
