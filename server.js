@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const { execFile } = require('child_process');
@@ -10,8 +11,8 @@ app.use(cors());
 app.use(express.json());
 
 // Paths to C++ search engine resources
-const BIN_PATH = path.join(__dirname, 'main');
-const CORPUS_PATH = path.join(__dirname, 'test_files');
+const BIN_PATH = process.env.BIN_PATH ? path.resolve(__dirname, process.env.BIN_PATH) : path.join(__dirname, 'main');
+const CORPUS_PATH = process.env.CORPUS_PATH ? path.resolve(__dirname, process.env.CORPUS_PATH) : path.join(__dirname, 'test_files');
 
 // Helper to execute the compiled C++ binary and return JSON
 function runSearchEngine(args) {

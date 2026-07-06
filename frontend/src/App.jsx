@@ -31,9 +31,11 @@ import {
 } from 'lucide-react';
 import ReactECharts from 'echarts-for-react';
 
-const API_BASE = window.location.port && (window.location.port === '5173' || window.location.port === '5174' || window.location.port === '5175') 
-  ? 'http://localhost:8000/api' 
-  : '/api';
+const API_BASE = import.meta.env.VITE_API_BASE || (
+  window.location.port && (window.location.port === '5173' || window.location.port === '5174' || window.location.port === '5175') 
+    ? 'http://localhost:8000/api' 
+    : '/api'
+);
 
 export default function App() {
   // Theme and UI States
